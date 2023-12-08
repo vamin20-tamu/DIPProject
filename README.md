@@ -22,7 +22,7 @@ if your training stopped randomly, enter this command (let's say it stopped at e
 
 `python gan-models-torch/train.py --dataroot (dataset name) --model maskshadow_gan --restore --epoch_count 94`
 
-To test a model at a certain epoch checkpoint (say epoch 134), cd into HyperGAN and enter this command.
+To test a model at a certain epoch checkpoint (say epoch 134), cd into DIPProject and enter this command.
 
 `python gan-models-torch/test.py --dataroot (dataset name) --model maskshadow_gan --epoch_count 134`
 
